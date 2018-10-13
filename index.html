@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>test</title>
+        <link rel="stylesheet" type="text/css" href="test.css">
+    </head>
+    
+    <body>
+        <h1 style="text-align:center">HTML</h1>
+        <h2 style="text-align: center">對HTML的基本認識</h2>
+        <p >HTML，全名HyperText Markup Language，中文譯為超文本標記語言， 為形成網頁的最基本骨架。 目前主要使用HTML5，在此版本最著名的即是擴充了對多媒體的支援。 以前要播放影片，或是跑動畫，幾乎離不開Flash， 但現在這些可以由video與canvas等HTML標籤輕易完成。</p>
+        <p>另外，其實它並不是程式語言，而是標記語言
+           HTML網頁主要由標籤(tag)構成，而標籤通常是成對的，分別稱做起始標籤(start tag)和結束標籤(end tag)。 少部分的標籤會單獨存在，如換行的<br>與<img>等。</p>
+        <h2>基本結構</h2>
+        <p>我們可以將HTML網頁的結構，想像成一個人，架構大概如下:
+        <br>html
+        <br>- head
+        <br> - body
+        <br>head(頭):主要負責記錄屬性和連結檔案，如網頁標題(title)和連結CSS檔。
+        body(身體):使用者可看到的內容，主要位於這裡。
+        </p>
+        <h2>段落(paragraph)</h2>
+        <p>
+            src : 來源(source)路徑連結，必須是直接連結至檔案本身。
+            <br>
+            
+            這樣將會顯示一張魔術方塊的圖片在網頁上，如圖: 
+             <img src="https://fanlan1210.github.io/files/rubiks-cube-157058.svg">
+        </p>
+        <h1>CSS</h1>
+        <h2>什麼是CSS</h2>
+        <p>
+            使用CSS主要有3種方式，分別是行內(標籤內)套用、連結CSS檔案套用、style標籤套用。<br>
+            在此先介紹常用的其中2種。
+        </p>
+        <h3>標籤內套用</h3>
+            在起始標籤中，加入style="..."， ... 替換為欲使用的樣式。
+            例:
+        <h3>連結檔案套用</h3>
+          <p>在標籤中，加入標籤，連結至CSS檔。<br>
+           <li>link為連結檔案的標籤
+           <li>rel 為連結關係，這裡選擇"樣式表"(stylesheet)
+           <li>type 為類型，由於是css文本，所以填入"text/css"
+           <li>href 內填入連結位址
+        </p>
+        <h1>CSS內容</h1>
+        CSS的語法:
+        <br>
+        <li>選擇器: 在這裡我們填入標籤名(如h1)</li>
+        <li>屬性: 填入想要更改的樣式名(如color)
+        <li>值: 屬性對應的數值(如color可以填入red)</lil>
+        <li>注意: **中括號({})和分號(;)**很重要!</lili>
+        <h2>文字樣式</h2>
+        <h3>color: 文字/前景 顏色</h3>
+        color的值有現成的色彩英文可以輸入，像是常見的green.red.blue.black.white等等。 也支援用RGB色光來表示色彩，如rgb(255,255,255)，這個例子將會顯示白色。 另外，最常見的是以十六進位標籤表示顏色，以前面的例子來說，白色也可表示成#FFFFFF。
+        <h3>font-size: 文字大小</h3>
+        絕對單位習慣用"像素"(px,pixel)， 如果考慮到對不同裝置的支援，也可以用相對的百分率(%)來表示。
+        <h3>text-align:對齊文字</h3>
+        常見有向左(left)、向右(right)、置中(center)
+        <h2>設定背景</h2>
+        <h3>background-color: 背景顏色</h3>
+        這部分類似於前面所提到的設定文字顏色部分。
+        <h3>background-image: 背景圖片</h3>
+        在CSS中，要提供圖片的位址，可以使用url()。
+        <h3>background-size: 調整背景大小</h3>
+        可以使用寬度和高度來調整，單位仍然支援絕對與相對。<br>
+        background-size: 寬 高;
+        <br>cover : 覆蓋模式，將會忽略寬高比，以整個填滿為優先。
+        <h1>Github</h1>
+            <h2></h2
+                <h3>>
+    <
+                <h3>/body>
+    
+</html>
